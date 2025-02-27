@@ -2,7 +2,7 @@
 
 check full diff at
 
-https://github.com/produktivkraft/llvm-project/compare/xyz.nop.base...produktivkraft:llvm-project:xyz.nop
+[github.com/produktivkraft/llvm-project][diff]
 
 ## notes
 
@@ -31,4 +31,5 @@ TODO: add ref
 
 <!-- links -->
 
+[diff]: https://github.com/produktivkraft/llvm-project/compare/xyz.nop.base...produktivkraft:llvm-project:xyz.nop
 [llvm_Dialect]: https://mlir.llvm.org/docs/Dialects/LLVM/
