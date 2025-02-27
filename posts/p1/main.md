@@ -1,4 +1,4 @@
-# Add a New RISC-V `Nop` Instruction in LLVM
+# Add a New RISC-V Nop Instruction in LLVM
 
 check full diff at
 
@@ -7,8 +7,13 @@ check full diff at
 ## notes
 
 - add `xyz.nop` assembly instr
-  modify `llvm/lib/Target/RISCV/`
-  modify `llvm/lib/Target/RISCV/Disassembler/`
+
+modify
+
+```
+llvm/lib/Target/RISCV/
+llvm/lib/Target/RISCV/Disassembler/
+```
 
 - add `llvm.riscv.xyz.nop` llvm ir
 
@@ -27,7 +32,13 @@ eg:
 
 ## refernce
 
-TODO: add ref
+- https://arxiv.org/abs/2310.18353
+  Supporting Custom Instructions with the LLVM Compiler for RISC-V Processor
+
+- https://sites.google.com/view/isca-2024-tutorial-riscv-instr/home
+  Tutorial: Expedited Development of Novel RISC-V Instructions Through an Emulation-Simulation Framework(Co-located with ISCA 2024)
+
+---
 
 <!-- links -->
 
