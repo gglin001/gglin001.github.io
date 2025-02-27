@@ -8,6 +8,8 @@ check full diff at
 
 - add `xyz.nop` assembly instr
 
+NOTE: this instruction takes no parameters
+
 modify
 
 ```
